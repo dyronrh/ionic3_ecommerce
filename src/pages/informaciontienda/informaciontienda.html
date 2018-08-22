@@ -1,0 +1,107 @@
+<ion-header color="primary" no-border text-center>
+    <ion-navbar transparent color="light">
+      <ion-buttons end>
+  
+      </ion-buttons>
+  
+  
+  
+  
+  
+    </ion-navbar>
+    <ion-buttons end>
+      <ion-title text-center style="color: gray">NOMBRE TIENDA</ion-title>
+      <button style="margin-right: -10px;" class="headerbutton" pull-right ion-button icon-only>
+        <ion-icon color="primary" name="star"></ion-icon>
+      </button>
+      <button class="headerbutton" pull-right ion-button icon-only>
+        <ion-icon color="primary" name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+    <button class="menubutton" pull-left ion-button menuToggle>
+      <ion-icon class="menuicon" color="primary" name="menu"> </ion-icon>
+  
+    </button>
+    <ion-row>
+      <ion-col col-4 col-sm-4 col-md-4>
+        <button (click)="gotoOferta()" class="buttonhead" color="primary" ion-button round outline class="signup">OFERTA</button>
+      </ion-col>
+      <ion-col col-4 col-sm-4 col-md-4>
+        <button (click)="gotoInformacion()" class="buttonhead" color="primary" ion-button round  class="signup" >INFORMACION DEL LOCAL</button>
+      </ion-col>
+   
+    </ion-row>
+  </ion-header>
+  
+  <ion-content text-center>
+      <agm-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="zoom">
+          <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+        </agm-map>
+    <ion-row style="justify-content: center">
+      <ion-col col-auto style="border-bottom: 1px solid #f10e66;">
+        <p style="font-size:1.8em">Contacto</p>
+        
+        <div style="width: 90vw; padding: 10px;margin-top: -20px;  color: black;">
+          <p text-center style="font-size:1.4em;margin-top: 15px; ">  <ion-icon name="mail"></ion-icon>
+            avellanedacompra@gmail.com</p>
+          <p text-center style="font-size:1.4em;margin-top: 15px; ">  <ion-icon name="phone-portrait"></ion-icon>
+             1111111111</p>
+          <p text-center style="font-size:1.4em;margin-top: 15px; ">  <ion-icon name="logo-whatsapp"></ion-icon>
+             123456</p>
+         
+        </div>
+  
+      </ion-col>
+      <ion-col col-auto style="border-bottom: 1px solid #f10e66;">
+        <p style="font-size:1.8em">Horarios</p>
+        
+        <div style="width: 90vw; padding: 10px;margin-top: -20px;  color: black;">
+          <p text-center style="font-size:1.4em;margin-top: 15px; ">  
+            Lun-Vie: 00:00 a 00:00 <br> Sabado: 00:00 a 00:00</p>
+            
+        
+         
+        </div>
+  
+      </ion-col>
+      <ion-col col-auto style="border-bottom: 1px solid #f10e66;">
+        <p style="font-size:1.8em">Rubros</p>
+        
+        <div style="width: 90vw; padding: 10px;margin-top: -20px;  color: black;">
+          <p text-center style="font-size:1.4em;margin-top: 15px; ">  
+            Jeans, Pantalon, Short, Vestidos, Remeras, Camperas, Buzos, Zapatos</p>
+       
+        
+         
+        </div>
+  
+      </ion-col>
+      <ion-col col-auto style="border-bottom: 1px solid #f10e66;">
+        <p style="font-size:1.8em">Informacion Adicional</p>
+        
+        <div style="width: 90vw; padding: 10px;margin-top: -20px;  color: black;">
+          <p text-center style="font-size:1.4em;margin-top: 15px; ">  
+            Ofrecemos servicio de calidad y garantizado con precios de todo tipo.</p>
+       
+        
+         
+        </div>
+  
+      </ion-col>
+     
+    
+    </ion-row>
+
+    <button ion-button round color="primary">Contacta por WhatsAPP</button>
+  
+    
+  
+  </ion-content>
+  <ion-footer>
+    <ion-toolbar text-center color="primary">
+      <button (click)="gotoTodasCategorias()"  color="primary" ion-button block full>
+        <ion-icon color="light" style="border: none;box-shadow: transparent !important; font-size: 25px; margin-right: 10px"
+          ios="ios-pricetags" md="md-pricetags"></ion-icon> VER TODAS LAS OFERTAS</button>
+     
+    </ion-toolbar>
+  </ion-footer>

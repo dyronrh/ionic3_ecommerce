@@ -1,0 +1,81 @@
+<ion-header color="primary" no-border text-center>
+    <ion-navbar  transparent color="light">
+     <ion-buttons end>
+         
+     </ion-buttons>
+      
+      
+    
+     
+      
+    </ion-navbar>
+    <ion-buttons  end>
+        <ion-title text-center style="color: gray">Avellaneda Compras</ion-title>
+        <button style="margin-right: -10px;" class="headerbutton"  pull-right ion-button icon-only>
+          <ion-icon  color="primary" name="star"></ion-icon>
+        </button>
+      <button class="headerbutton" pull-right ion-button icon-only>
+          <ion-icon  color="primary" name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+       <button class="menubutton" pull-left ion-button menuToggle>
+              <ion-icon class="menuicon"  color="primary" name="menu"> </ion-icon>
+              
+     </button>
+    <ion-row >
+        <ion-col ><button class="buttonhead" color="primary" ion-button round   >Hombre</button></ion-col>
+   <!--     <ion-col> <button class="buttonhead"  color="primary" ion-button round outline  class="signup">Hombre</button></ion-col>
+        <ion-col> <button class="buttonhead"  color="primary" ion-button round outline  class="signup">Niño</button></ion-col>
+      
+   -->
+     
+      </ion-row>
+  </ion-header>
+  
+  <ion-content text-center>
+    <ion-row style="justify-content: center">
+      <ion-col col-4>
+        <img   src="assets/imgs/categoriahombre/jeanscategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailJeans()">
+        <h3 text-center style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Jeans</h3>
+      </ion-col>
+      <ion-col col-4>
+        <img src="assets/imgs/categoriahombre/pantaloncategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailPantalones()">
+        <h3 text-center style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Pantalones</h3>
+      </ion-col>
+      <ion-col col-4>
+        <img  src="assets/imgs/categoriahombre/shortcategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailPantalonescorto()"> 
+        <h3 style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Pantalon corto</h3>
+      </ion-col><br>
+      <ion-col col-4>
+          <img  src="assets/imgs/categoriahombre/remeracategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailRemeras()">
+          <h3 style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Remeras</h3>
+      </ion-col>
+      <ion-col col-4>
+          <img src="assets/imgs/categoriahombre/camisascategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailCamisas()">
+          <h3 style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Camisas</h3>
+      </ion-col>
+      <ion-col col-4>
+          <img src="assets/imgs/categoriahombre/buzoscategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailBuzos()">
+          <h3 style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Buzos</h3>
+      </ion-col>
+      <ion-col col-4>
+          <img  src="assets/imgs/categoriahombre/camperacategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailCamperas()">
+          <h3 style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Camperas</h3>
+      </ion-col>
+      <ion-col col-4>
+          <img  src="assets/imgs/categoriahombre/ropainteriorcategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailRopaInterior()">
+          <h3 style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Ropa interior</h3>
+      </ion-col>
+      <ion-col col-4>
+          <img  src="assets/imgs/categoriahombre/zapatocategoriahombre.jpg" alt="" (click)="gotoCategoriaDetailZapatos()">
+          <h3 style="font-size:1.2em;margin-top: -5px; background-color: #f10e66; color: white;">Zapatos y otros</h3>
+      </ion-col>
+    </ion-row>
+   
+  </ion-content>
+  <ion-footer >
+      <ion-toolbar text-center color="primary">
+        <button  color="primary" ion-button block full><ion-icon color="light" style="border: none;box-shadow: transparent !important; font-size: 25px; margin-right: 10px" ios="ios-pricetags" md="md-pricetags"></ion-icon> VER TODAS LAS OFERTAS</button>
+      
+      </ion-toolbar>
+    </ion-footer>

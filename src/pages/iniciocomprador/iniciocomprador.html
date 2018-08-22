@@ -1,0 +1,37 @@
+<ion-content class="content" scroll="false" text-center>
+    <div class="splash-bg"></div>
+    <div class="splash-info">
+      <div class="splash-logo"></div>
+   <!--   <div class="splash-intro">
+        {{ 'WELCOME_INTRO' | translate }}
+      </div>-->
+      <div>
+        <input class="imputlogin" type="text" placeholder="Usuario" >
+      </div>
+      <div>
+        <input class="imputlogin" type="password" placeholder="Contraseña" style="margin-top: 35px;">
+      </div>
+      <div>
+        <p style="color: gainsboro">Olvidaste tu contraseña?</p>
+      </div>
+    
+          <button style="width: 70vw" color="primary" ion-button round outline  (click)="login()" class="login">{{ 'LOGIN' | translate }}</button> <br>
+          <button  style="margin-top: -90px; height: 50px; width: 40vw" color="light" ion-button round  (click)="gotoRegistroComprador()" >{{ 'SIGNUP' | translate }}</button> 
+
+            <img no-padding  height="100" src="assets/imgs/facebookico.png" alt="">
+    
+          
+          <ion-row text-center>
+          <ion-col col-auto>
+            
+          </ion-col>
+         
+           
+        </ion-row>
+         
+    
+        <p (click)="gotoVendedor()" style="color: gainsboro">Si sos vendedor, tocá acá</p>
+    </div>
+   
+  </ion-content>
+  

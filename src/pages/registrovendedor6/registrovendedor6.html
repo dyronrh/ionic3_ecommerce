@@ -1,0 +1,208 @@
+<ion-header text-center no-border>
+
+    <ion-navbar transparent>
+      <ion-title> </ion-title>
+    </ion-navbar>
+    <img style="margin-top: -50px;" src="/assets/imgs/logowhite.png" alt="">
+    
+</ion-header>
+
+<ion-content padding>
+    <ion-row  style="justify-content: center">
+        <h3>QUE VENDES?</h3>
+  </ion-row>
+  <div style="margin-top:15px;" >
+    <ion-list   radio-group [(ngModel)]="filtros">
+
+    
+    
+      <ion-item style="border-bottom-color: deeppink">
+        <ion-radio color="primary" value="mayorista"></ion-radio>
+        <ion-label  >Mayorista</ion-label>
+       
+      </ion-item>
+    
+      <ion-item>
+         <ion-radio value="minorista"></ion-radio>
+        <ion-label>Minorista</ion-label>
+       
+      </ion-item>
+      <ion-item>
+        <ion-radio value="envia"></ion-radio>
+        <ion-label>Hace envio</ion-label>
+        
+      </ion-item>
+      <ion-item>
+        <ion-radio value="pagotarjeta"></ion-radio>
+        <ion-label>Pago con tarjeta</ion-label>
+        
+      </ion-item>
+    
+      <ion-item>
+        <ion-radio value="probarropa"></ion-radio>
+        <ion-label>Permite probar ropa</ion-label>
+        
+      </ion-item>
+    
+      <ion-item>
+        <ion-radio value="haceenvio"></ion-radio>
+        <ion-label>Hace envio</ion-label>
+        
+      </ion-item>
+    
+    </ion-list>
+  </div>
+    <div  >
+        <ion-list   radio-group [(ngModel)]="filtros">
+    
+          <ion-list-header   style="color: white;background-color: deeppink">
+            Rubros Mujeres
+          </ion-list-header>
+        
+          <ion-item style="border-bottom-color: deeppink">
+            <ion-radio color="primary" value="jeansmujer"></ion-radio>
+            <ion-label  >Jeans</ion-label>
+           
+          </ion-item>
+        
+          <ion-item>
+             <ion-radio value="pantalonmujer"></ion-radio>
+            <ion-label>Pantalon</ion-label>
+           
+          </ion-item>
+          <ion-item>
+            <ion-radio value="shotycalsamujer"></ion-radio>
+            <ion-label>Short y calsas</ion-label>
+            
+          </ion-item>
+          <ion-item>
+            <ion-radio value="remerasmujer"></ion-radio>
+            <ion-label>Remeras</ion-label>
+            
+          </ion-item>
+        
+          <ion-item>
+            <ion-radio value="vestidos"></ion-radio>
+            <ion-label>Vestidos</ion-label>
+            
+          </ion-item>
+        
+          <ion-item>
+            <ion-radio value="buzosmujer"></ion-radio>
+            <ion-label>Busos</ion-label>
+            
+          </ion-item>
+          <ion-item>
+            <ion-radio value="camperasmujer"></ion-radio>
+            <ion-label>Camperas</ion-label>
+            
+          </ion-item>
+          <ion-item>
+            <ion-radio value="zapatosmujer"></ion-radio>
+            <ion-label>Zapatos y otros</ion-label>
+            
+          </ion-item>
+          <ion-list-header color="light" style="color: white;background-color: deeppink">
+            Rubros Hombre
+          </ion-list-header>
+        
+          <ion-item style="border-bottom-color: deeppink">
+            <ion-radio color="primary" value="jeanshombre"></ion-radio>
+            <ion-label  >Jeans</ion-label>
+           
+          </ion-item>
+        
+          <ion-item>
+             <ion-radio value="pantalonhombre"></ion-radio>
+            <ion-label>Pantalon</ion-label>
+           
+          </ion-item>
+          <ion-item>
+            <ion-radio value="pantaloncortohombre"></ion-radio>
+            <ion-label>Pantalon corto</ion-label>
+            
+          </ion-item>
+          <ion-item>
+            <ion-radio value="remerashombre"></ion-radio>
+            <ion-label>Remeras</ion-label>
+            
+          </ion-item>
+        
+          <ion-item>
+            <ion-radio value="camisas"></ion-radio>
+            <ion-label>Camisas</ion-label>
+            
+          </ion-item>
+        
+          <ion-item>
+            <ion-radio value="buzoshombre"></ion-radio>
+            <ion-label>Busos</ion-label>
+            
+          </ion-item>
+          <ion-item>
+            <ion-radio value="camperashombre"></ion-radio>
+            <ion-label>Camperas</ion-label>
+            
+          </ion-item>
+          <ion-item>
+            <ion-radio value="zapatoshombre"></ion-radio>
+            <ion-label>Zapatos y otros</ion-label>
+            
+          </ion-item>
+          <ion-list-header color="light" style="color: white;background-color: deeppink">
+            Rubros Niños
+          </ion-list-header>
+        
+          <ion-item style="border-bottom-color: deeppink">
+            <ion-radio color="primary" value="bebes"></ion-radio>
+            <ion-label  >Bebes</ion-label>
+           
+          </ion-item>
+        
+          <ion-item>
+             <ion-radio value="pantalonnino"></ion-radio>
+            <ion-label>Pantalon</ion-label>
+           
+          </ion-item>
+         
+          <ion-item>
+            <ion-radio value="remerasnino"></ion-radio>
+            <ion-label>Remeras</ion-label>
+            
+          </ion-item>
+          <ion-item>
+              <ion-radio value="buzosnino"></ion-radio>
+              <ion-label>Buzos</ion-label>
+              
+            </ion-item>
+            <ion-item>
+                <ion-radio value="camperasnino"></ion-radio>
+                <ion-label>Camperas</ion-label>
+                
+              </ion-item>
+          <ion-item>
+            <ion-radio value="camisas"></ion-radio>
+            <ion-label>Ropa interior</ion-label>
+            
+          </ion-item>
+        
+         
+        
+          <ion-item>
+            <ion-radio value="zapatosnino"></ion-radio>
+            <ion-label>Zapatos y otros</ion-label>
+            
+          </ion-item>
+        
+        </ion-list>
+      </div>
+    
+</ion-content>
+<ion-footer no-border>
+    <ion-navbar transparent>
+      <ion-buttons end>
+        <button color="primary" round (click)="gotonext()" class="siguiente">Siguiente</button>
+      </ion-buttons>
+  
+    </ion-navbar>
+</ion-footer>

@@ -1,0 +1,65 @@
+page-ofertatienda {
+    agm-map {
+        height: 300px;
+      }
+    .button-ios{
+        height: 1.8em;
+           padding-left: 15px;
+     
+            color: #f10e66;
+    }
+    .button-md{
+      box-shadow: none; 
+    }
+        //background-color: red;
+.buttonhead{
+    border: 1 solid #f10e66;
+    width: 30vw;
+    font-size: 2.1em;
+    padding-left: -20px;
+    padding-right: -20px;
+    width: 2.9em;
+}
+    .headerbutton{
+        background-color: transparent !important;
+        padding: -10px;
+        margin-top:-40px;
+        padding-left: 15px;
+      
+       
+    }
+    .buttonenu{
+        display: block;
+    }
+    .toolbar-md-light .bar-button-clear-md, .toolbar-md-light .bar-button-default-md, .toolbar-md-light .bar-button-outline-md, .toolbar-md-light .toolbar-title-md {
+        color: #f10e66;
+    }
+    .toolbar-ios-light .back-button  .toolbar-ios-light .bar-button-clear-ios, .toolbar-ios-light .bar-button-default-ios {
+        color: #f10e66;
+    }
+    .menuicon{
+        font-size: 30px;
+    }
+    .menubutton{
+        position: absolute;
+        //background-color: red;
+        top: 5;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 20px;
+    }
+    ion-navbar{
+        position:relative;
+        //background-color: green;
+    }
+
+    .menubutton {
+
+  
+        background-color: transparent !important;
+
+        margin-right: 90vw;
+        margin-top: -40px;
+    }
+}

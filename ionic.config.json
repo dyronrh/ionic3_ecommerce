@@ -1,0 +1,7 @@
+{
+  "name": "AvellanedaCompra",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

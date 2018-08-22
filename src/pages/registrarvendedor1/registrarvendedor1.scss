@@ -1,0 +1,44 @@
+page-registrarvendedor1 {
+    ion-header ion-icon.back-button-icon.icon {
+        color: map-get($colors, primary);
+    }
+    .button-md,.button-ios{
+        background-color: transparent !important;
+        box-shadow: none !important;
+       
+        outline: none !important;
+        margin-top: -235px;
+
+    }
+.siguiente{
+    height: 50px;
+    border-radius: 25px;
+    background-color: map-get($colors, primary);
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 15px;
+}
+    h3{
+        color: gray;
+    }
+    p{
+        font-size: 20px;
+        color: gray;
+    }
+    .back-button
+    {
+        color: transparent !important;
+    }
+    ion-header{
+        button{
+            background-color: transparent !important;
+            border: none;
+        }
+    }
+    .back-button{
+        text:none
+    }
+}

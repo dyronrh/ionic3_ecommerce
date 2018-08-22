@@ -1,0 +1,35 @@
+page-registrocomprador {
+    .imputregister{
+        background-color: transparent !important; 
+        font-size: 25px;  
+        border: none;
+        color: #3f3d3d;
+        border-bottom: 0.3px solid #f10e66;
+       padding-top: 30px;
+      }
+      input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(117, 115, 115);
+        opacity: 1; /* Firefox */
+        text-align: center
+    }
+    ion-select::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(117, 115, 115);
+        opacity: 1; /* Firefox */
+        text-align: center;
+        font-size: 30px;
+    }
+    .buttoncontainer{
+        margin-top: 20px;
+        
+    }
+    ion-select{
+        .select-icon,  {
+            size: 30px;
+            color: #f10e66;
+
+            font-size: 40px;
+           text-decoration-color: #f10e66
+            //display: none !important;  /* hidden triangle icon and selected text */
+        }
+    }
+}

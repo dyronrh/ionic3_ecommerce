@@ -1,0 +1,39 @@
+<ion-header no-border>
+  <ion-navbar transparent color="light">
+    <button ion-button menuToggle>
+      <ion-icon  color="primary" name="menu"></ion-icon>
+    </button>
+    <ion-title style="color: gray">Avellaneda Compras</ion-title>
+  </ion-navbar>
+ 
+</ion-header>
+
+<ion-content text-center>
+  <ion-row >
+    <ion-col ><button class="buttonhead" color="primary" ion-button round   class="signup">Mujer</button></ion-col>
+    <ion-col> <button class="buttonhead"  color="primary" ion-button round outline  class="signup">Hombre</button></ion-col>
+    <ion-col> <button class="buttonhead"  color="primary" ion-button round outline  class="signup">Niño</button></ion-col>
+  
+ 
+ 
+  </ion-row>
+ 
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of currentItems">
+      <button ion-item (click)="openItem(item)">
+        <ion-avatar item-start>
+          <img [src]="item.profilePic"/>
+        </ion-avatar>
+        <h2>{{item.name}}</h2>
+        <p>{{item.about}}</p>
+        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+      </button>
+
+      <ion-item-options>
+        <button ion-button color="danger" (click)="deleteItem(item)">
+          {{ 'DELETE_BUTTON' | translate }}
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

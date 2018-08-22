@@ -1,0 +1,431 @@
+<ion-header color="primary" no-border text-center>
+    <ion-navbar transparent color="light">
+      <ion-buttons end>
+  
+      </ion-buttons>
+  
+  
+  
+  
+  
+    </ion-navbar>
+    <ion-buttons end>
+      <ion-title text-center style="color: gray">NOMBRE TIENDA</ion-title>
+      <button style="margin-right: -10px;" class="headerbutton" pull-right ion-button icon-only>
+        <ion-icon color="primary" name="star"></ion-icon>
+      </button>
+      <button class="headerbutton" pull-right ion-button icon-only>
+        <ion-icon color="primary" name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+    <button class="menubutton" pull-left ion-button menuToggle>
+      <ion-icon class="menuicon" color="primary" name="menu"> </ion-icon>
+  
+    </button>
+    <ion-row>
+      <ion-col col-4 col-sm-4 col-md-4>
+        <button (click)="activarRubro()" class="buttonhead" color="primary" ion-button round outline class="signup">Rubros</button>
+      </ion-col>
+      <ion-col col-4 col-sm-4 col-md-4>
+        <button (click)="activarFiltro()" class="buttonhead" color="primary" ion-button round outline class="signup" >Filtros</button>
+      </ion-col>
+      <ion-col col-4 col-sm-4 col-md-4>
+        <button (click)="activarOrden()" class="buttonhead" color="primary" ion-button round outline class="signup">Ordenar</button>
+      </ion-col>
+    </ion-row>
+  </ion-header>
+  
+  <ion-content text-center>
+    <ion-row style="justify-content: center">
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+      <ion-col col-4 col-md-3 col-lg-3>
+        <p style="font-size:1.0em">Titulo de Oferta</p>
+        <img src="assets/imgs/detalleproducto.jpg" alt="">
+        <button style="margin-top: -35px; display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="star"></ion-icon>
+        </button>
+        <button style="margin-top: -35px; margin-left: 65%;display: block;position: relative;" class="headerbutton" ion-button icon-only>
+          <ion-icon color="primary" name="pin"></ion-icon>
+  
+        </button>
+        <div style="padding: 10px;margin-top: -20px; background-color: #f10e66; color: white;">
+          <p text-center style="font-size:1.0em;margin-top: 15px; ">Nombre Tienda</p>
+          <p text-center style="font-size:1.0em; ">Direccion</p>
+        </div>
+  
+      </ion-col>
+    
+    </ion-row>
+  
+    <div style="margin-top:15px;" *ngIf="filtroactivo">
+      <ion-list   radio-group [(ngModel)]="filtros">
+  
+        <ion-list-header>
+          Seleccio el filtro
+        </ion-list-header>
+      
+        <ion-item style="border-bottom-color: deeppink">
+          <ion-radio color="primary" value="mayorista"></ion-radio>
+          <ion-label  >Mayorista</ion-label>
+         
+        </ion-item>
+      
+        <ion-item>
+           <ion-radio value="minorista"></ion-radio>
+          <ion-label>Minorista</ion-label>
+         
+        </ion-item>
+        <ion-item>
+          <ion-radio value="envia"></ion-radio>
+          <ion-label>Hace envio</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="pagotarjeta"></ion-radio>
+          <ion-label>Pago con tarjeta</ion-label>
+          
+        </ion-item>
+      
+        <ion-item>
+          <ion-radio value="probarropa"></ion-radio>
+          <ion-label>Permite probar ropa</ion-label>
+          
+        </ion-item>
+      
+        <ion-item>
+          <ion-radio value="haceenvio"></ion-radio>
+          <ion-label>Hace envio</ion-label>
+          
+        </ion-item>
+      
+      </ion-list>
+    </div>
+    <div style="margin-top:15px;" *ngIf="ordenaractivo">
+      <ion-list   radio-group [(ngModel)]="filtros">
+  
+        <ion-list-header>
+          Ordenar
+        </ion-list-header>
+      
+        <ion-item style="border-bottom-color: deeppink">
+          <ion-radio color="primary" value="masvendido"></ion-radio>
+          <ion-label  >Mas vendido</ion-label>
+         
+        </ion-item>
+      
+        <ion-item>
+           <ion-radio value="masvisto"></ion-radio>
+          <ion-label>Mas visto</ion-label>
+         
+        </ion-item>
+        <ion-item>
+          <ion-radio value="anticipos"></ion-radio>
+          <ion-label>Anticipos</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="ofertas"></ion-radio>
+          <ion-label>Ofertas</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="lonuevo"></ion-radio>
+          <ion-label>Lo nuevo</ion-label>
+          
+        </ion-item>
+  
+      
+       
+      
+      </ion-list>
+    </div>
+    <div style="margin-top:15px;" *ngIf="rubrosactico">
+      <ion-list   radio-group [(ngModel)]="filtros">
+  
+        <ion-list-header>
+          Rubros Mujeres
+        </ion-list-header>
+      
+        <ion-item style="border-bottom-color: deeppink">
+          <ion-radio color="primary" value="jeansmujer"></ion-radio>
+          <ion-label  >Jeans</ion-label>
+         
+        </ion-item>
+      
+        <ion-item>
+           <ion-radio value="pantalonmujer"></ion-radio>
+          <ion-label>Pantalon</ion-label>
+         
+        </ion-item>
+        <ion-item>
+          <ion-radio value="shotycalsamujer"></ion-radio>
+          <ion-label>Short y calsas</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="remerasmujer"></ion-radio>
+          <ion-label>Remeras</ion-label>
+          
+        </ion-item>
+      
+        <ion-item>
+          <ion-radio value="vestidos"></ion-radio>
+          <ion-label>Vestidos</ion-label>
+          
+        </ion-item>
+      
+        <ion-item>
+          <ion-radio value="buzosmujer"></ion-radio>
+          <ion-label>Busos</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="camperasmujer"></ion-radio>
+          <ion-label>Camperas</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="zapatosmujer"></ion-radio>
+          <ion-label>Zapatos y otros</ion-label>
+          
+        </ion-item>
+        <ion-list-header>
+          Rubros Hombre
+        </ion-list-header>
+      
+        <ion-item style="border-bottom-color: deeppink">
+          <ion-radio color="primary" value="jeanshombre"></ion-radio>
+          <ion-label  >Jeans</ion-label>
+         
+        </ion-item>
+      
+        <ion-item>
+           <ion-radio value="pantalonhombre"></ion-radio>
+          <ion-label>Pantalon</ion-label>
+         
+        </ion-item>
+        <ion-item>
+          <ion-radio value="pantaloncortohombre"></ion-radio>
+          <ion-label>Pantalon corto</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="remerashombre"></ion-radio>
+          <ion-label>Remeras</ion-label>
+          
+        </ion-item>
+      
+        <ion-item>
+          <ion-radio value="camisas"></ion-radio>
+          <ion-label>Camisas</ion-label>
+          
+        </ion-item>
+      
+        <ion-item>
+          <ion-radio value="buzoshombre"></ion-radio>
+          <ion-label>Busos</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="camperashombre"></ion-radio>
+          <ion-label>Camperas</ion-label>
+          
+        </ion-item>
+        <ion-item>
+          <ion-radio value="zapatoshombre"></ion-radio>
+          <ion-label>Zapatos y otros</ion-label>
+          
+        </ion-item>
+        <ion-list-header>
+          Rubros Niños
+        </ion-list-header>
+        <ion-item style="border-bottom-color: deeppink">
+            <ion-radio color="primary" value="bebes"></ion-radio>
+            <ion-label  >Bebes</ion-label>
+           
+          </ion-item>
+        
+          <ion-item>
+             <ion-radio value="pantalonnino"></ion-radio>
+            <ion-label>Pantalon</ion-label>
+           
+          </ion-item>
+         
+          <ion-item>
+            <ion-radio value="remerasnino"></ion-radio>
+            <ion-label>Remeras</ion-label>
+            
+          </ion-item>
+          <ion-item>
+              <ion-radio value="buzosnino"></ion-radio>
+              <ion-label>Buzos</ion-label>
+              
+            </ion-item>
+            <ion-item>
+                <ion-radio value="camperasnino"></ion-radio>
+                <ion-label>Camperas</ion-label>
+                
+              </ion-item>
+          <ion-item>
+            <ion-radio value="camisas"></ion-radio>
+            <ion-label>Ropa interior</ion-label>
+            
+          </ion-item>
+        
+         
+        
+          <ion-item>
+            <ion-radio value="zapatosnino"></ion-radio>
+            <ion-label>Zapatos y otros</ion-label>
+            
+          </ion-item>
+      
+      </ion-list>
+    </div>
+  
+  </ion-content>
+  <ion-footer>
+    <ion-toolbar text-center color="primary">
+      <button *ngIf="nofiltro" color="primary" ion-button block full>
+        <ion-icon color="light" style="border: none;box-shadow: transparent !important; font-size: 25px; margin-right: 10px"
+          ios="ios-pricetags" md="md-pricetags"></ion-icon> VER TODAS LAS OFERTAS</button>
+      <button (click)="filtraRubros()" *ngIf="rubrosactico" color="primary" ion-button block full>
+        <ion-icon color="light" style="border: none;box-shadow: transparent !important; font-size: 25px; margin-right: 10px"
+          ios="ios-pricetags" md="md-pricetags"></ion-icon> BUSCAR RUBRO</button>
+      <button (click)="filtraFiltros()"  *ngIf="filtroactivo" color="primary" ion-button block full>
+        <ion-icon color="light" style="border: none;box-shadow: transparent !important; font-size: 25px; margin-right: 10px"
+          ios="ios-pricetags" md="md-pricetags"></ion-icon> FILTRAR</button>
+    
+      <button (click)="filtraOrden()"  *ngIf="ordenaractivo" color="primary" ion-button block full>
+        <ion-icon color="light" style="border: none;box-shadow: transparent !important; font-size: 25px; margin-right: 10px"
+          ios="ios-pricetags" md="md-pricetags"></ion-icon> ORDENAR </button>
+    
+    </ion-toolbar>
+  </ion-footer>

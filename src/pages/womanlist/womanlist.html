@@ -1,0 +1,68 @@
+<!--
+  Generated template for the WomanlistPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border text-center>
+    <ion-navbar hideBackButton transparent color="light">
+      <button ion-button menuToggle>
+        <ion-icon  color="primary" name="menu"></ion-icon>
+      </button>
+      <ion-title style="color: gray">Avellaneda Compras</ion-title>
+      <ion-buttons end>
+        <button pull-right ion-button icon-only>
+          <ion-icon  color="primary" name="star"></ion-icon>
+        </button>
+      <button pull-right ion-button icon-only>
+          <ion-icon  color="primary" name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+      
+    </ion-navbar>
+    <ion-row >
+        <ion-col ><button (click)="gotocategoriasmujer()" class="buttonhead" color="primary" ion-button round   class="signup">Mujer</button></ion-col>
+        <ion-col> <button (click)="gotocategoriashombre()" class="buttonhead"  color="primary" ion-button round outline  class="signup">Hombre</button></ion-col>
+        <ion-col> <button (click)="gotocategoriasnino()" class="buttonhead"  color="primary" ion-button round outline  class="signup">Niño</button></ion-col>
+      
+     
+     
+      </ion-row>
+  </ion-header>
+  
+  <ion-content text-center>
+    <ion-row style="justify-content: center">
+      <ion-col col-auto>
+        <img (click)="gotoCategoriaDetailJeans()" style="height: 150px;" src="assets/imgs/jeansdamas.png" alt="">
+      </ion-col>
+      <ion-col col-auto>
+        <img (click)="gotoCategoriaDetailPantalones()" src="assets/imgs/pantalonesdama.png" alt="">
+      </ion-col>
+      <ion-col col-auto>
+        <img (click)="gotoCategoriaDetailPantalonescorto()" src="assets/imgs/shortdcalzasdamas.png" alt=""> <br>
+         <img (click)="gotoCategoriaDetailCamisas()"  src="assets/imgs/vestidos.png" alt="">
+      </ion-col><br>
+      <ion-col col-auto>
+          <img (click)="gotoCategoriaDetailRemeras()" src="assets/imgs/remerasdamas.png" alt="">
+      </ion-col>
+      <ion-col col-auto>
+          <img (click)="gotoCategoriaDetailBuzos()" src="assets/imgs/buzosdamas.png" alt="">
+      </ion-col>
+      <ion-col col-auto>
+          <img (click)="gotoCategoriaDetailCamperas()"  src="assets/imgs/camperasdamas.png" alt="">
+      </ion-col>
+      <ion-col col-auto>
+          <img (click)="gotoCategoriaDetailRopaInterior()" src="assets/imgs/ropainteriordama.png" alt="">
+      </ion-col>
+      <ion-col col-auto>
+          <img (click)="gotoCategoriaDetailZapatos()" src="assets/imgs/zapatosdama.png" alt="">
+      </ion-col>
+    </ion-row>
+   
+  </ion-content>
+  <ion-footer >
+      <ion-toolbar text-center color="primary">
+        <button color="primary" ion-button block full><ion-icon color="light" style="font-size: 25px; margin-right: 10px" ios="ios-pricetags" md="md-pricetags"></ion-icon> VER TODAS LAS OFERTAS</button>
+      
+      </ion-toolbar>
+    </ion-footer>

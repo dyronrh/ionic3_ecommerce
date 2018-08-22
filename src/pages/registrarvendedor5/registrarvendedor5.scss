@@ -1,0 +1,128 @@
+page-registrarvendedor5 {
+    agm-map {
+        height: 300px;
+      }
+      ion-header ion-icon.back-button-icon.icon {
+        color: map-get($colors, primary);
+    }
+    .button-md,.button-ios{
+        background-color: transparent !important;
+        box-shadow: none !important;
+       
+        outline: none !important;
+        margin-top: -235px;
+
+    }
+.siguiente{
+    height: 50px;
+    border-radius: 25px;
+    background-color: map-get($colors, primary);
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 15px;
+}
+    h3{
+        color: gray;
+    }
+    p{
+        font-size: 20px;
+        color: gray;
+    }
+    .back-button
+    {
+        color: transparent !important;
+    }
+    ion-header{
+        button{
+            background-color: transparent !important;
+            border: none;
+        }
+    }
+    ion-checkbox {
+        margin-bottom: 5px;
+    }
+    .back-button{
+        text:none
+    }
+    //============
+    ion-item{
+        padding-left: 170vw; 
+    }
+    .button-inner{
+
+      label{
+       // left: -15px;
+      }
+      ion-checkbox{
+          margin-left: 20px;
+      }
+  
+    }
+    .imputregister{
+        background-color: transparent !important; 
+        font-size: 25px;  
+        border: none;
+        color: #3f3d3d;
+        border-bottom: 0.3px solid #f10e66;
+        text-align: center;
+        margin-top: -25px;
+       // font-size: 10px; 
+       font-size: 1.2em;
+       width: 80vw;
+       
+       display: block;
+      }
+      input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(117, 115, 115);
+        opacity: 1; /* Firefox */
+        text-align: center;
+        font-size: 1.0em;
+    }
+    ion-select::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: rgb(117, 115, 115);
+        opacity: 1; /* Firefox */
+        text-align: center;
+       
+    }
+    .buttoncontainer{
+        margin-top: 20px;
+        
+    }     
+    .form-control{
+        border: 1px solid black;
+        border-radius: 4px;
+        font-size: 1.2em;
+        margin-bottom: 15px;
+        height: 20px;
+        padding: 20px;
+        width: 90vw;
+    }
+    ion-icon{
+        font-size: 30px;
+        color: #f10e66;
+    }
+    //================search input
+    .inner-addon {
+        position: relative;
+      }
+      .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+      }
+      .left-addon .glyphicon {
+        left: 0px;
+      }
+      .right-addon .glyphicon {
+        right: 0px;
+      }
+      .left-addon input {
+        padding-left: 30px;
+      }
+      .right-addon input {
+        padding-right: 30px;
+      }
+}
